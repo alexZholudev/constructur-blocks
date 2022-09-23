@@ -199,8 +199,5 @@ const renderPosts = () => {
         addPost();
         countVisiblePosts++
         renderPosts();
-        console.log(addedPosts,'added posts')
-        console.log(countVisiblePosts,'count posts')
-        console.log(postsCol.length,'arr posts')
         message.innerHTML = "";
     };
