@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Constructor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="preloader" class="preloader"></div>
+
+<div class="container">
+    <form action="/" id="create-post" class="create-post">
+        <div class="description-input">
+            <textarea id="post-title" type="text" class="title" placeholder="Заголовок"></textarea>
+            <input id="post-url" type="text" class="url" placeholder="Посилання">
+            <textarea name="post-text" id="post-text"  class="text" placeholder="Текст"></textarea>
+            <input type="file" id="load-image" accept="image/*" >
+            <input class="submit" type="submit" value="Создать">
+        </div>
+        <div class="image-wrap">
+            <img id="post-image" src="#" alt="Post image">
+        </div>
+    </form>
+    <div id="error" class="error">
+
+    </div>
+</div>
+
+
+<div id="posts" class="posts">
+    <div class="container">
+        <div class="posts-inner">
+
+        </div>
+    </div>
+</div>
+<div class="wrapper-btn">
+    <button id="load-more">Load more</button>
+</div>
+
+
+<script src="main.js"></script>
+</body>
+</html>
